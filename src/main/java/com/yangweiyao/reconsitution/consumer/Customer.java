@@ -41,7 +41,6 @@ public class Customer {
 
         while (rentals.hasMoreElements()){
             Rental each = rentals.nextElement();
-            // add frequent renter points
             // add bonus for a two day new release rental
             frequentRenterPoints += each.getFrequentRenterPoints();
 
