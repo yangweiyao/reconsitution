@@ -13,7 +13,7 @@ public class CreateOrder {
 
     public static void main(String[] args) {
         Customer customer = new Customer("张三");
-        customer.addRental(new Rental(new Movie("猪猪侠", Movie.CHILDRENS), 7));
+        customer.addRental(new Rental(new Movie("猪猪侠", Movie.CHILDREN), 7));
         System.out.println(customer.statement());
     }
 
